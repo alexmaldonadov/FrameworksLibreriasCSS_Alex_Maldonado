@@ -1,6 +1,6 @@
 body {
     max-width: 900px;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgb(102, 0, 0);
 }
 
@@ -19,8 +19,14 @@ section {
 }
 
 .fotoart {
-  width: 160px;
-  margin-left: 10px;
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+height: 200px;
+}
+
+.caja-comment {
+  width: 98%!important;
 }
 
 .img-logo{
@@ -30,11 +36,19 @@ section {
 
 .redes-sociales {
   margin: 80px 10px 0px 0px;
+  text-align: right;
+}
+
+.img-social:hover {
+    opacity: 0.7;
 }
 
 .contenido {
   background-color: white;
-  padding: 10px
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
 }
 
 .navbar-nav {
@@ -59,6 +73,48 @@ section {
 .input-group {
   width: 90%;
 }
-@@media query {
 
+.img-comment {
+  width:100px;
+  margin:10px
+}
+
+.media {
+margin: 10px;
+width: 95%;
+}
+
+.navbar-form {
+  margin: 10px 10% 10px 10%;
+}
+.list-group{
+  margin: 0px 5% 0px 5%;
+}
+
+@media (max-width: 819px) {
+  .navbar-nav > li {
+    float: none;
+    display: inline;
+    margin: 0px 30px 0px 30px;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-logo{
+    margin: 20px 15% 20px 15%;
+    width: 300px;
+  }
+  .redes-sociales {
+    margin: 10px;
+    text-align: center;
+  }
+  .media-right {
+    display: inline;
+    vertical-align: top;
+  }
+  .fotoart{
+    width: 95%;
+    height: 95%;
+  }
 }
