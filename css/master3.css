@@ -2,21 +2,21 @@ body {
   background:url(../img/guatemala_fondo.jpg) no-repeat top;
   background-attachment: fixed;
   }
+
+  .Size-Icons {
+    font-size: 72px;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #1565C0;
+    padding: 0px 10px 0px 10px;
+   }
+
   .nav-wapper {
     height: 90px;
     padding-top: 10px;
     line-height: 70px;
     background-color: #42a5f5 !important;
-  }
-  .container  {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  .container .row {
-    margin: 0 auto;
   }
