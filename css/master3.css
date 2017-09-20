@@ -2,28 +2,21 @@ body {
   background:url(../img/guatemala_fondo.jpg) no-repeat top;
   background-attachment: fixed;
   }
-
-  nav {
-      height: 150px;
-      line-height: 60px;
+  .nav-wapper {
+    height: 90px;
+    padding-top: 10px;
+    line-height: 70px;
+    background-color: #42a5f5 !important;
+  }
+  .container  {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
   }
 
-  h3{
-    margin-top: 90px;
-    margin-left: -150px;
+  .container .row {
+    margin: 0 auto;
   }
-
-.logo {
-  margin-top: 50px;
-  margin-left: 15px;
-}
-
-.nav-wrapper{
-  margin-top: 10px;
-  background-color: #42a5f5 !important;
-}
-
-.transparencia {
-  filter:alpha(opacity=100);
-  opacity:0.9;
-}
