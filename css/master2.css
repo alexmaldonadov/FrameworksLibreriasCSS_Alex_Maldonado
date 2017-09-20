@@ -1,7 +1,6 @@
 body {
   background:url(../img/cocina.jpg) no-repeat top;
-  height: 1024px;
-  margin: 0 auto;
+  background-attachment: fixed;
   }
 
 h1 {
