@@ -1,3 +1,7 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
 body {
   background:url(../img/guatemala_fondo.jpg) no-repeat top;
   background-attachment: fixed;
@@ -20,3 +24,22 @@ body {
     line-height: 70px;
     background-color: #42a5f5 !important;
   }
+  .img-art-g {
+    padding: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #42a5f5;
+  }
+
+  p {
+    padding-top: 20px;
+  }
+
+.chip {
+  margin-top: 10px;
+}
+
+.comentario {
+  color: white;
+  background-color: #42a5f5;
+}
