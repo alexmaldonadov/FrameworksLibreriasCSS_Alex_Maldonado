@@ -24,11 +24,14 @@ body {
     line-height: 70px;
     background-color: #42a5f5 !important;
   }
+
   .img-art-g {
-    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,1);
+    background: rgba(0,0,0,0.8);
+    border-radius: 6px;
+    padding: 1px 1px 1px 1px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: #42a5f5;
   }
 
   p {
